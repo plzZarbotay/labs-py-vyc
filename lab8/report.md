@@ -22,98 +22,98 @@
 7. **Протокол**:
    ```
       arts@LemonCorp:~$ ls
- ld        snap     Видео       Загрузки      Музыка         'Рабочий стол'
- lol.txt   sorted   Документы   Изображения   Общедоступные   Шаблоны
-arts@LemonCorp:~$ cd Документы/
-arts@LemonCorp:~/Документы$ ды
-ды: команда не найдена
-arts@LemonCorp:~/Документы$ дыв
-дыв: команда не найдена
-arts@LemonCorp:~/Документы$ ls
-f1.txt  f1.txt~  herniya  labspython  LemOS
-arts@LemonCorp:~/Документы$ cd herniya
-arts@LemonCorp:~/Документы/herniya$ ls
-io1
-arts@LemonCorp:~/Документы/herniya$ mkdir Oil
-arts@LemonCorp:~/Документы/herniya$ cd Oil
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
-Warning: Missing charsets in String to FontSet conversion
-arts@LemonCorp:~/Документы/herniya/Oil$ fg
-bash: fg: текущий: нет такого задания
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs +1 lab8.c
-^Carts@LemonCorp:~/Документы/herniya/Oil$ cc lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ ls
-a.out  lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ ls
-a.out  lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
-^X
-^Z
-[1]+  Остановлен    emacs lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ 
-arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
-lab8.c:1:3: error: stray ‘#’ in program
-    1 | ad#include <stdio.h>
-      |   ^
-lab8.c:1:1: error: unknown type name ‘ad’
-    1 | ad#include <stdio.h>
-      | ^~
-lab8.c:1:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
-    1 | ad#include <stdio.h>
-      |            ^
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
-^Z
-[2]+  Остановлен    emacs lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
-lab8.c:1:3: error: stray ‘#’ in program
-    1 | ad#include <stdio.h>
-      |   ^
-lab8.c:1:1: error: unknown type name ‘ad’
-    1 | ad#include <stdio.h>
-      | ^~
-lab8.c:1:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
-    1 | ad#include <stdio.h>
-      |            ^
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
-arts@LemonCorp:~/Документы/herniya/Oil$ ls
-a.out  lab8.c  lab8.c~
-arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c 2>&1 | more
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(END)
-[3]+  Остановлен    gcc -std=c99 -Wall -pedantic lab8.c 2>&1 | more
-arts@LemonCorp:~/Документы/herniya/Oil$ ./a.out
-Hello, Viktor!
-arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c && ./a.out
-Hello, Viktor!
-arts@LemonCorp:~/Документы/herniya/Oil$ A
+    ld        snap     Видео       Загрузки      Музыка         'Рабочий стол'
+    lol.txt   sorted   Документы   Изображения   Общедоступные   Шаблоны
+   arts@LemonCorp:~$ cd Документы/
+   arts@LemonCorp:~/Документы$ ды
+   ды: команда не найдена
+   arts@LemonCorp:~/Документы$ дыв
+   дыв: команда не найдена
+   arts@LemonCorp:~/Документы$ ls
+   f1.txt  f1.txt~  herniya  labspython  LemOS
+   arts@LemonCorp:~/Документы$ cd herniya
+   arts@LemonCorp:~/Документы/herniya$ ls
+   io1
+   arts@LemonCorp:~/Документы/herniya$ mkdir Oil
+   arts@LemonCorp:~/Документы/herniya$ cd Oil
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
+   Warning: Missing charsets in String to FontSet conversion
+   arts@LemonCorp:~/Документы/herniya/Oil$ fg
+   bash: fg: текущий: нет такого задания
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs +1 lab8.c
+   ^Carts@LemonCorp:~/Документы/herniya/Oil$ cc lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ ls
+   a.out  lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ ls
+   a.out  lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
+   ^X
+   ^Z
+   [1]+  Остановлен    emacs lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ 
+   arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
+   lab8.c:1:3: error: stray ‘#’ in program
+       1 | ad#include <stdio.h>
+         |   ^
+   lab8.c:1:1: error: unknown type name ‘ad’
+       1 | ad#include <stdio.h>
+         | ^~
+   lab8.c:1:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+       1 | ad#include <stdio.h>
+         |            ^
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
+   ^Z
+   [2]+  Остановлен    emacs lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
+   lab8.c:1:3: error: stray ‘#’ in program
+       1 | ad#include <stdio.h>
+         |   ^
+   lab8.c:1:1: error: unknown type name ‘ad’
+       1 | ad#include <stdio.h>
+         | ^~
+   lab8.c:1:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+       1 | ad#include <stdio.h>
+         |            ^
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ emacs lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c
+   arts@LemonCorp:~/Документы/herniya/Oil$ ls
+   a.out  lab8.c  lab8.c~
+   arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c 2>&1 | more
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   (END)
+   [3]+  Остановлен    gcc -std=c99 -Wall -pedantic lab8.c 2>&1 | more
+   arts@LemonCorp:~/Документы/herniya/Oil$ ./a.out
+   Hello, Viktor!
+   arts@LemonCorp:~/Документы/herniya/Oil$ gcc -std=c99 -Wall -pedantic lab8.c && ./a.out
+   Hello, Viktor!
+   arts@LemonCorp:~/Документы/herniya/Oil$ A
    ```
 9. **Замечания автора** по существу работы: Все было ровно
 10. **Выводы**: Мы научились работать Си, поняли что находиться под капотом! Написали банальный алгоритм на Си. Осознали величие emacs по сравнению со всем, что присуствует в Unix подобных системах!
